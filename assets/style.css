@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ole&display=swap');
+
 * {
+font-family: "Nunito", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -6,7 +12,6 @@ background-color: #11082B;
 }
 
 header {
-    background-color: #11082B;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,7 +20,7 @@ header {
 }
 
 header, p {
-    padding: 10px;
+    padding: 5px;
     color: #FFF;
     margin: 30px;
     margin-top: auto;
@@ -25,7 +30,7 @@ header, p {
 .line {
     width: 100%;
     height: 3px;
-    background: linear-gradient(to right, blue, green);
+    background: linear-gradient(to right, blue, aqua);
 }
 
 .login-container {
@@ -35,4 +40,28 @@ header, p {
     align-items: center;
     width: 100%;
     height: calc(100vh - 50px);
+}
+
+.login {
+    width: 25%;
+    border: 2px solid blue;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px 3px aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+input, .login-btn {
+    color: #FFF;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border: 1px solid #FFF ;
+    height: 30px;
+    padding: 5px;
 }

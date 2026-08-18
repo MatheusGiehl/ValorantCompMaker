@@ -61,7 +61,7 @@ a:hover {
     height: 50%;
 }
 
-input, .login-btn {
+input, .login-btn, .register-btn {
     color: #FFF;
     width: 65%;
     display: flex;
@@ -71,4 +71,17 @@ input, .login-btn {
     border: 1px solid #FFF ;
     height: 30px;
     padding: 5px;
+    border-radius: 5px;
+}
+
+p {
+    color: #FFF;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-size: small;
+}
+
+.register-btn {
+    width: 45%;
 }
